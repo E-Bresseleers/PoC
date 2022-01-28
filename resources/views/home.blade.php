@@ -6,9 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PoC</title>
-    <h1>Dashboard</h1>
 </head>
 <body>
-
+<h1>Dashboard</h1>
+<FORM>
+    <button type="button" onclick="">PDF met overschotten aanmaken</button>
+    <button type="button" onclick="">PDF met overschotten aanmaken</button>
+    <button type="button" onclick="">PDF met overschotten aanmaken</button>
+    <button type="button" onclick="">Versturen email met PDF</button>
+</FORM>
 </body>
 </html>
