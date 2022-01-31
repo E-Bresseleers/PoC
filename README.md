@@ -7,29 +7,29 @@ sites:
     - map: supermarkt.test
       to: /home/vagrant/code/supermarkt/public
       
-    New test domain to your hosts file C:\Windows\System32\drivers\etc\hosts:
-    192.168.10.10 supermarkt.test #ip kan variëren kijk bovenaan bestand.
-    
-    (Re)start Homestead
-    If Vagrant is running, stop it with the command vagrant halt
-    Execute the command vagrant up --provision
-    Browse to the project via the URL http://supermarkt.test 
-    
-    
-      Open this project in PhpStorm
-      Wait until the project is fully indexed
-      ! (See bottom right of editor) --> indexing project
-      
-      Run npm install
-      
-      installeren package in composer:
-      composer require --dev barryvdh/laravel-ide-helper:2.8.2
-      (Re)generate the helper file yourself: php artisan ide-helper:generate
-      
-      volg de stappen:
-      https://itf-laravel.netlify.app/config_7/laravel.html#enable-the-laravel-plugin
-     
-      
+New test domain to your hosts file C:\Windows\System32\drivers\etc\hosts:
+192.168.10.10 supermarkt.test #ip kan variëren kijk bovenaan bestand.
+
+(Re)start Homestead
+If Vagrant is running, stop it with the command vagrant halt
+Execute the command vagrant up --provision
+Browse to the project via the URL http://supermarkt.test 
+
+
+  Open this project in PhpStorm
+  Wait until the project is fully indexed
+  ! (See bottom right of editor) --> indexing project
+  
+  Run npm install
+  
+  installeren package in composer:
+  composer require --dev barryvdh/laravel-ide-helper:2.8.2
+  (Re)generate the helper file yourself: php artisan ide-helper:generate
+  
+  volg de stappen:
+  https://itf-laravel.netlify.app/config_7/laravel.html#enable-the-laravel-plugin
+en
+https://itf-laravel.netlify.app/config_7/mix.html#frontend-scaffolding
 </p>
 
 

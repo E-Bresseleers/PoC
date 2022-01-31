@@ -1,19 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PoC</title>
-</head>
-<body>
-<h1>Dashboard</h1>
-<FORM>
-    <button type="button" onclick="">PDF met overschotten aanmaken</button>
-    <button type="button" onclick="">PDF met overschotten aanmaken</button>
-    <button type="button" onclick="">PDF met overschotten aanmaken</button>
-    <button type="button" onclick="">Versturen email met PDF</button>
-</FORM>
-</body>
-</html>
+@extends('shared.template')
+
+@section('title', 'PoC')
+
+@section('main')
+    <h1>Dashboard</h1>
+    <FORM>
+        <button type="button" onclick="">PDF met overschotten aanmaken</button>
+        <button type="button" onclick="">PDF met overschotten aanmaken</button>
+        <button type="button" onclick="">PDF met overschotten aanmaken</button>
+        <button type="button" onclick="">Versturen email met PDF</button>
+    </FORM>
+@endsection
